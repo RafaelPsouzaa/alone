@@ -1,0 +1,436 @@
+
+*{/*reset pagina*/
+    margin: 0; 
+    padding:0;
+    
+ }
+ body{
+     
+    background-color:rgba(0, 0, 0, 0.993);
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  
+ }
+ /*servicos*/
+.service-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.service-box svg,.service-box h4{
+    transition: .5s;
+}
+.service-box svg{
+    font-size: 60px;
+}
+.service-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.service-box:hover >svg,.service-box:hover > h4{
+    color: #acf848;
+}
+.menu{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 0%;
+}
+  
+header nav a {
+    text-decoration: none; 
+    color: rgb(253, 253, 253); 
+    margin-left: 20px;
+    font-size: large;
+}
+.menu a:hover{
+/*background-color: #1e90ff;*/
+color: #acf848;
+cursor: pointer;
+transition: .5s;
+text-decoration: none;
+}
+.container-fluid{
+    padding: 0%;
+}
+
+#mainSlider .carousel-caption{
+    top: 10%;
+}
+#mainSlider .carousel-caption h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    color:#1e90ff;
+}
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    margin-bottom: 50px;
+    color: rgb(253, 253, 253);
+}
+
+.main-btn{
+    background-color: #1e90ff;
+    color:aliceblue;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: #5c9e07;
+    transition: .5s;
+}
+.main-btn:hover{
+    text-decoration: none;
+    color: aliceblue;
+    border-color:#1e90ff;
+    background-color: transparent;
+}
+.carousel-indicators .active{
+    background-color: #1e90ff;
+}
+/* -----------------------------------Sobre a empresa--------------------------------------------------------*/
+#about-area{
+    display:flex;
+    width: 100%;
+}
+.col-2{
+    margin: 0%;
+    padding: 0%;
+}
+#about-area img{
+    margin-top: 100px;
+}
+.main-title{
+    color:aliceblue;
+    text-align: center;
+    margin: 20px 0px 45px 0px;
+    font-size: 40px;
+}
+.main-title{
+    margin: 0% 0% 4% 0%;
+}
+.main-title::after{
+    content:"";
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+.about-title{
+    font-size: 17px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#about-list{
+    list-style: none;
+    padding: 0%;
+
+}
+#about-list li {
+    line-height:30px;
+    color: #acf848;
+    
+}
+#videoAlone{
+    position:fixed;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/*.texto-base {
+    position:relative;
+    top: 450px;
+    text-align: center;
+    margin-top: 0%;
+}
+.sobreText{
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+}*/
+.contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+/*card team-area */
+/*observacao pode retirar altura e e tamanho do card */
+#team-area{
+    display: flex;
+}
+.card{
+margin-right: px;
+}
+.card-body{
+    color:#1e90ff;
+    text-align: center;
+}
+/*-------------------------------------------------projeto-------------------------------------------------*/
+.project-a{
+color: #acf848;
+cursor: pointer;
+transition: .5s;
+text-decoration: none;
+margin-left: 100px;
+}
+.project-box{
+    margin-bottom: 15px;
+}
+#filter-btn-box{
+    margin-bottom: 50px;
+    text-align: center;
+    }
+#filter-btn-box .filter-btn {
+
+    color:rgb(255, 240, 242);
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height:40x ;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+
+  #port .filter-btn.active,#port .filter-btn:hover{
+      color: aliceblue;
+      background-color: #acf848;
+      border: aliceblue;
+  }
+  #btn-enviar{
+    color:rgb(255, 240, 242);
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 10px;
+    min-width: 200px;
+    width: auto;
+    height:40px ;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  #btn-enviar:hover{
+    color: aliceblue;
+      background-color: #acf848;
+      border: aliceblue;
+  }
+
+  #contact-area{
+      text-align: center;
+      padding: 0%;
+  }
+
+  .contact-box{
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      border-bottom: 1px solid aliceblue;
+  }
+  .contact-box span{
+    color: #acf848;
+  }
+  .contact-box i{
+      border: 1px solid aliceblue;
+      border-radius: 50%;
+      padding: 10px;
+      font-size: 22px;
+       }
+       .contact-box i:hover{
+        background-color: #acf848;
+        
+         }
+  #copyrity{
+      text-align: center;
+ 
+  }
+  #copyrity .row a{
+    color: #acf848;
+  }
+  /*----------------------------------------------pagina Sobre---------------------------------------------*/
+  
+  
+  
+  #sobre{
+      border-bottom: 1px solid aliceblue;
+     text-align: center;
+  }
+  
+  #sobre{
+    height: 100%;
+     margin: 0%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+
+
+#sobre .row{
+    width: 100%;
+}
+#sobre .sobreText{
+    height: 100%;
+    padding:0%;
+    text-align: justify;
+    margin: 100px 0px 40px 10px ;
+    color: aliceblue;
+    font-size:large; 
+   
+}
+#sobre .sobreText h1{
+    text-align: center;
+    
+}
+#sobre .sobreText {
+    font-size:larger;
+}
+header .menuSobre{
+    margin: 0px;
+    position: relative;
+    z-index: 1;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom: 0%;
+    
+
+}
+header .menuSobre nav{
+    size:30px;
+    margin-right: 30px;
+}
+header .menuSobre a:hover{
+    color: #acf848;
+}
+#futuroEmpresa{
+    display: flex;
+    margin-bottom: 50px;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    
+    
+}
+#futuroEmpresa .pillarAgil{
+    padding:  0px;
+    font-size: 14px;
+    width: 100%;
+}
+#futuroEmpresa .textoFuturo{
+    font-size: 20px;
+    margin-left: 200px;
+
+}
+
+
+.endereço{
+    color: aliceblue;
+}
+/*#footerSobre{
+   
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    padding-left: 20px;
+    margin: 0px;
+
+}*/
+
+
+
+  /*responsive*/
+  @media screen and (max-width: 768px) {
+    .container{
+        display: flex;
+        padding: 0px 0;
+        margin: 0%;
+        
+        }
+        .sobreText p{
+            font-size: larger;
+        }
+    
+    
+    #mainSlider .carousel-inner, #mainSlider .carousel-item{
+        height: auto;
+       
+    }
+    #mainSlider .carousel-caption p{
+        margin-bottom: 40px;
+    }
+    #about-area .col-md-6 img{
+        margin-top: 180px;
+        
+    }
+
+}
+
+@media screen and (max-width:375px){
+    html{
+        height: 336px;
+    
+    }
+    .pillarAgil{
+        width: 100%;
+    }
+    .textoFuturo{
+        width: 100%;
+    }
+    .sobreText{
+        font-size:x-large;
+        flex-direction: column;
+        
+    }
+    .about-title{
+        font-size: 20px;
+    }
+    #about-area p{
+        font-size: 18px;
+    }
+    #about-list{
+        font-size: 18px;
+    }
+    #filter-btn-box button{
+        font-size: 18px;
+
+    }
+    
+    @media screen and (min-width:320px){
+        html{
+            height: 376px;
+            
+        
+        }
+        .sobreText p{
+            font-size: x-large;
+        }
+    
+    /*---------------------------------------------time-----------------------------------------------------*/
+    .card-title {
+        font-size: 14px;
+    }
+    .card-text{
+        font-size: 8px;
+    }
+
+
+
+    
+
+  
+}
+}
