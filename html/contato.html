@@ -7,6 +7,8 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
+  <!-- Import Icons from Remixicon CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <!-- Font Awesome -->
@@ -49,7 +51,15 @@
                     <input id="email" type="email" name="email"  class="form-control"  placeholder="Rafael@gmail.com"><br>
                     <label for="descricao">Descricao</label><br>
                     <textarea name="decricao" id="descricao" class="form-control" placeholder="Digite sua Menssgem" cols="20" rows="5"></textarea><br>
-                    <button type="submit" class=" main-btn filter-btn" id="btn-enviar" >Enviar</button>
+
+                    
+                      
+                    <button class=" filter-btn" >
+                      <span class="send">Enviar</span>
+                      <i class="ri-send-plane-fill plane"></i>
+                      <span class="sent">Message sent</span>
+                  </button>
+              
 
                 </fieldset>
             </form>
